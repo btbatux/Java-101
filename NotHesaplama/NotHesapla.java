@@ -1,4 +1,3 @@
-import java.security.DrbgParameters.NextBytes;
 import java.util.Scanner;
 
 public class NotHesapla {
