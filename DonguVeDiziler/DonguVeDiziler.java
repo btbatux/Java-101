@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class DonguVeDiziler {
     public static void main(String[] args) {
-
+        // Güncellendi
         try (Scanner input = new Scanner(System.in)) {
             int boyut;
             int sembol;
