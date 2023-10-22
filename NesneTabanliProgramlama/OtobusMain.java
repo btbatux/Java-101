@@ -13,6 +13,8 @@ public class OtobusMain {
         kamilKoc.nereden = "Kahramanmaras";
         kamilKoc.nereye = "Istanbul";
 
+        kamilKoc.bilgiAl();
+
         Otobus aksu = new Otobus();
 
         aksu.bilgi = "Aksu";
@@ -22,7 +24,6 @@ public class OtobusMain {
         aksu.nereden = "Sivas";
         aksu.nereye = "Izmır";
 
-        // kamilKoc.bilgiAl();
         // aksu.bilgiAl();
 
         kamilKoc.yolcuAl(40);

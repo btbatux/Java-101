@@ -34,7 +34,7 @@ public class Otobus {
         if (mevcutYolcu == 0) {
             System.out.println("Otobus tamamen boş");
         } else {
-            System.out.println("Mevcut Yolcular : " + mevcutYolcu + " Kişi");
+            System.out.println("Mevcut Yolcu Sayısı : " + mevcutYolcu + " Kişi");
         }
     }
 
