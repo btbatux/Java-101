@@ -1,4 +1,3 @@
-package UcakBiletiUcretHesaplama;
 
 public class TicketCalculator {
     // Sabit değerler

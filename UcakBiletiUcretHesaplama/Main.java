@@ -1,4 +1,3 @@
-package UcakBiletiUcretHesaplama;
 
 import java.util.Scanner;
 
