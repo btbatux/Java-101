@@ -10,12 +10,12 @@ public class Main {
 
         while (true) {
             System.out.println("Boyunuzu (metre cinsinden) giriniz: ");
-            stature = input.nextDouble(); // Boy bilgisini al
+            stature = input.nextDouble(); // Boy bilgisini aldık
 
             System.out.println("Kilonuzu giriniz: ");
-            kg = input.nextDouble(); // Kilo bilgisini al
+            kg = input.nextDouble(); // Kilo bilgisini aldık
 
-            if (stature > 0 && kg > 0) {
+            if (stature > 0 && kg > 0) { // Negatif değer girişini kontrol ettik
 
                 result = kg / (stature * stature); // Vucüt kitle indeksini hesapla
                 System.out.println("Vücud kitle indeksiniz: " + result);
