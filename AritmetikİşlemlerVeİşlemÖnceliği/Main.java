@@ -11,7 +11,7 @@ public class Main {
         a = input.nextInt();
         System.out.print("İkinci sayıyı giriniz:");
         b = input.nextInt();
-        System.out.print("İkinci sayıyı giriniz:");
+        System.out.print("Üçüncü sayıyı giriniz:");
         c = input.nextInt();
 
         result = a + b * c - b;
