@@ -1,1 +1,1 @@
-Java101-patika alıştırma
+Java101-patika alıştırma soruları 
