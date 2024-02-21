@@ -1,1 +1,1 @@
-deneme
+Aritmetik İşlemlerde İşlem Önceliği Örneği

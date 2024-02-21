@@ -9,6 +9,7 @@ public class Main {
         double result, kg, height;
 
         while (true) {
+
             System.out.println("Boyunuzu (metre cinsinden) giriniz: ");
             height = input.nextDouble(); // Boy bilgisini aldık
 
