@@ -1,0 +1,1 @@
+Alınan meyve miktarlarına göre toplam tutarı hesaplayan java programı
