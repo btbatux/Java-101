@@ -1,0 +1,1 @@
+Geçerli not sayısına göre not ortalamasını hesaplayan java programı
