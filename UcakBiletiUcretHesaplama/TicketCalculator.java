@@ -6,7 +6,7 @@ public class TicketCalculator {
     private int age; // Yaş
     private int tripType; // Yolculuk Tipi (1: Tek Yön, 2: Gidiş-Dönüş)
 
-    // Constructor
+    // Main.java'dan gelen parametreler (onstructor)
     public TicketCalculator(double distance, int age, int tripType) {
         this.distance = distance;
         this.age = age;
