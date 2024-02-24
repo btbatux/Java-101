@@ -1,0 +1,1 @@
+Girilen üç sayıyı küçükten büyüğe sıralyan java programı
