@@ -1,0 +1,1 @@
+Bu program, kullanıcıdan öncelikle kaç adet sayı gireceğini sorar. Daha sonra bu sayı kadar döngüde kullanıcıdan sayı alır ve her bir sayı için en küçük (min) ve en büyük (max) değerleri günceller. Programın sonunda girilen sayıların en küçüğü ve en büyüğü ekrana yazdırılır.
