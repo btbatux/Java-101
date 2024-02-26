@@ -1,4 +1,4 @@
-package TekSayılarınToplamınıProgram;
+package CiftveDordunKatlarıToplamı;
 
 import java.util.Scanner;
 
