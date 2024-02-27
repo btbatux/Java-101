@@ -11,7 +11,6 @@ public class Main {
 
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
-        System.out.println(max);
         int sayi;
 
         /*
