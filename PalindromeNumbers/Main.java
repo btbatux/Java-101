@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        // 100 ile 200 arasındaki palindrom sayıları bulup yazdırıyoruz
+        // palindrom sayıları bulup yazdırıyoruz
         System.out.println(isPalindrome(11));
     }
 }
