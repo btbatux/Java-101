@@ -4,30 +4,28 @@ import java.util.Scanner;
 
 public class Main {
 
-    static int total = 1; // Sınıf Düzeyinde değişken
-
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in); // Sayi Girisleri
-        int taban, us; // Taban ve üs değiskeni
+        int base, exponent;
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Taban Değeri: ");
-        taban = input.nextInt(); // Taban
-        System.out.print("Üs Değeri: ");
-        us = input.nextInt(); // Üs
+        System.out.println("Taban: ");
+        base = input.nextInt();
+        System.out.println("Üs: ");
+        exponent = input.nextInt();
 
-        System.out.println("Sonuç: " + usHesapla(taban, us)); // taban ve üssü parametre olarka gönderdik ve sonucu
-                                                              // yazdırdık
-
+        int result = pow(base, exponent);
+        System.out.println(base + "^" + exponent + " = " + result);
     }
 
-    private static int usHesapla(int taban, int us) {
+    public static int pow(int base, int exponent) {
+        // Üs sıfır ise sonuç 1'dir.
+        if (exponent == 0) {
+            return 1;
 
-        for (int i = 1; i <= us; i++) {
-            total *= taban; // tabanı üs miktarınca çarp
+        } else {
+            // Üs 1'den büyükse, taban değeri ile recursive olarak kendini çağır.
+            return base * pow(base, exponent - 1);
         }
-
-        return total;
     }
-
 }
