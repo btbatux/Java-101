@@ -11,7 +11,7 @@ public class Main {
             return 1;
         } else {
 
-            return base * power(base, exponent - 1); // Tabanı üs miktarınca
+            return base * power(base, exponent - 1);
         }
     }
 }
