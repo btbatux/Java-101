@@ -3,7 +3,7 @@ package Metotlar;
 
 import java.util.Scanner;
 
-public class RecursiveNumberAdjuster {
+public class BesAzaltBesArrttir {
 
     /*
      * Java dilinde kullanıcıdan alınan n değerine göre aşağıdaki kurala uyan döngü
