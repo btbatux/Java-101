@@ -43,9 +43,9 @@ public class MineSweeper { // Değerlendirme formu 5
             int rowMineNumber = randomMineNumber.nextInt(row); // Değerlendirme formu 8
             int columnMineNumber = randomMineNumber.nextInt(column); // Değerlendirme formu 8
 
-            if (map[rowMineNumber][columnMineNumber].equals("-")) {
-                map[rowMineNumber][columnMineNumber] = "*"; // üretilen satır ve sütun sayısına denk gelen kısımlara
-                                                            // mayınlar yerleştirilir.
+            if (map[rowMineNumber][columnMineNumber].equals("-")) { // Değerlendirme formu 8
+                map[rowMineNumber][columnMineNumber] = "*"; // Değerlendirme formu 8
+
                 mineNumber--; // mayın yerleştirildikçe azaltılır ve bitene kadar bu döngü devam eder.
             }
 
@@ -55,6 +55,7 @@ public class MineSweeper { // Değerlendirme formu 5
         playCheck(); // playCheck metodunu çağırdık ve oyunu başlattık.
     }
 
+    // Değerlendirme formu 6
     public void playCheck() {
         boolean finish = false;
         // Mayına basmadığı sürece kullanıcıdan işaretlemesi gereken satır ve sütun
