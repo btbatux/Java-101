@@ -30,7 +30,7 @@ public class Employee {
         }
     }
 
-    public void bonus() {
+    public void bonus() { // çalışma saatine göre bonus hesaplayan metod
         if (workHours > 40) {
             bonusSalary = 30 * (workHours - 40);
 
@@ -66,7 +66,7 @@ public class Employee {
 
     }
 
-    public void writeString() {
+    public void writeString() { // Tüm bilgileri yazdıran metod
         System.out.println("Adı: " + name);
         System.out.println("Maaşı: " + salary);
         System.out.println("Başlangıç Yılı " + hireYear);
